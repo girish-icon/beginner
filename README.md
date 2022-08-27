@@ -5,4 +5,14 @@ this is my first git project.
 - stage
 - commit
 - changes
--
+## AWS 
+- data center
+- region
+- avalibility zone
+- VPC
+- storage
+    - S3
+    - EBS
+    - EFS
+- Compute
+    - EC2
