@@ -16,3 +16,5 @@ this is my first git project.
     - EFS
 - Compute
     - EC2
+    - I am ready
+    
