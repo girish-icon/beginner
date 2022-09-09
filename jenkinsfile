@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building new EC2 instance'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing new EC2 instance'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying new EC2 instance'
+            }
+        }
+    }
+}
