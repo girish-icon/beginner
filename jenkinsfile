@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building new EC2 instance'
+                echo 'Building' 'auto deploy demo'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing new EC2 instance'
+                echo 'Testing' 'auto deploy demo'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying new EC2 instance'
+                echo 'Deploying' 'auto deploy demo'
             }
         }
     }
